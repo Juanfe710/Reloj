@@ -9,17 +9,11 @@ Obtención de la hora: Se recuperan las horas, minutos y segundos actuales del s
 
 Cálculo angular: A partir de la hora obtenida, se calculan los ángulos de rotación en radianes para cada manecilla, considerando su avance proporcional:
 
-Segundero: Avanza π/30 radianes (6 
-∘
- ) por cada segundo.
+Segundero: Avanza π/30 radianes (6°) por cada segundo.
 
-Minutero: Avanza π/30 radianes (6 
-∘
- ) por cada minuto, más el desplazamiento fraccional correspondiente a los segundos.
+Minutero: Avanza π/30 radianes (6°) por cada minuto, más el desplazamiento fraccional correspondiente a los segundos.
 
-Horario: Avanza π/6 radianes (30 
-∘
- ) por cada hora, más la contribución proporcional de los minutos.
+Horario: Avanza π/6 radianes (30°) por cada hora, más la contribución proporcional de los minutos.
 
 Actualización de la orientación: Los ángulos calculados se utilizan para actualizar la orientación de los bloques en el dibujo de AutoCAD, simulando la rotación de las manecillas en sentido horario.
 
