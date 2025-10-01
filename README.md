@@ -18,3 +18,18 @@ Horario: Avanza π/6 radianes (30°) por cada hora, más la contribución propor
 Actualización de la orientación: Los ángulos calculados se utilizan para actualizar la orientación de los bloques en el dibujo de AutoCAD, simulando la rotación de las manecillas en sentido horario.
 
 Todo este proceso se ejecuta dentro de un ciclo que se repite cada segundo, garantizando que el reloj se mantenga sincronizado y operativo en tiempo real. En esencia, el código convierte AutoCAD, un software de diseño estático, en una plataforma dinámica capaz de reproducir fielmente el movimiento de un reloj analógico.
+
+
+```mermaid
+flowchart TD
+    A[Inicio] --> B[Obtener hora actual del sistema]
+    B --> C[Calcular ángulo del segundero en radianes]
+    B --> D[Calcular ángulo del minutero en radianes]
+    B --> E[Calcular ángulo del horario en radianes]
+    C --> F[Actualizar bloque del segundero con ángulo]
+    D --> G[Actualizar bloque del minutero con ángulo]
+    E --> H[Actualizar bloque del horario con ángulo]
+    F --> I[Esperar 1 segundo]
+    G --> I
+    H --> I
+    I --> B
