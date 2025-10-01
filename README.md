@@ -19,6 +19,7 @@ Actualización de la orientación: Los ángulos calculados se utilizan para actu
 
 Todo este proceso se ejecuta dentro de un ciclo que se repite cada segundo, garantizando que el reloj se mantenga sincronizado y operativo en tiempo real. En esencia, el código convierte AutoCAD, un software de diseño estático, en una plataforma dinámica capaz de reproducir fielmente el movimiento de un reloj analógico.
 
+Se muestra a continuación el diagrama de flujo del respectivo código:
 
 ```mermaid
 flowchart TD
