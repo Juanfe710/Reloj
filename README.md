@@ -34,3 +34,6 @@ flowchart TD
     G --> I
     H --> I
     I --> B
+
+
+Para la realización de este proyecto se contó con la ayuda de ChatGPT.
